@@ -15,7 +15,7 @@ database = mongo_db.UrlShortner
 collection = database.urls
 
 qr_obj = qr_code()
-base_url = "https://url-shortner-axwl.onrender.com"
+base_url = "https://url-shortner-axwl.onrender.com/"
 
 url_obj = urls(collection)
 class addURL(BaseModel):
